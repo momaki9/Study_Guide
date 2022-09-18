@@ -137,3 +137,26 @@ switch (operation) {
     default:
         console.log("Please check your typing!")
 }
+
+// Day 3 notes
+//For of looping
+// 1. Using arrays
+const songs = ['Bad Guy', 'The Wheels on the Bus', 'Friday'];
+
+for (const song of songs) {
+    console.log(song);
+}
+// 2. Using multidimensional arrays
+const moreSongs = [
+  ['Bad Guy', 1],
+  ['The Wheels on the Bus', 2],
+  ['Friday', 3],
+];
+
+for (const song of moreSongs) {
+    console.log(song);
+}
+//stopped at 0:44
+//spread vs rest parameter (the latter is when it is used inside a function)
+//reduce method 0:57 and 1:06
+//object desctructuring at 1:10 --> const { keys I want to interface with } = objectName OR const [ elements in an array ] = arrayName;
